@@ -1,0 +1,209 @@
+
+
+.underline{
+    background: #fff;
+    content: "";
+    position: absolute;
+    width: 100px; /* unique for each section */
+    height: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#underlineAbout{
+    background-color: #000;
+    width: 150px;
+}
+#underlineSkills{
+    background-color: #fff;
+    width: 80px;
+}
+#underlineContact{
+    background-color: #000;
+    width: 180px;
+}
+.scrolled{
+    background-color: rgb(172, 0, 0) !important;
+    transition: background-color 400ms linear;
+}
+.navbar-toggler{
+    background-color: rgb(175, 175, 175);
+}
+.homePage, .aboutPage, .skillsPage, .contactPage{
+    height: 100vh !important;
+    background-size: cover;
+    font-family: 'Ubuntu', 'sans-serif', 'Helvetica', 'sans-serif';
+}
+@media only screen and (max-width: 992px) {
+    .homePage {
+        height: 1080px !important;
+    }
+    .aboutPage{
+        height: 1800px !important;
+    }
+    .skillsPage{
+        height: 1500px !important;
+    }
+    .contactPage{
+        height: 1200px !important;
+    }
+  }
+.homePage{
+    background: url("../img/bg.jpg") no-repeat center;
+    background-color: #222629;
+    color: #fff;
+}
+.aboutMePic{
+    background: url("../img/me2.jpg") no-repeat center;
+    background-size: contain;
+    height: 90%;
+}
+blockquote{
+    font-family: 'Courgette', 'Comic Sans MS', 'sans-serif';
+    font-size: 32px !important;
+    transform: rotate(-20deg);
+}
+.blockquote-footer{
+    font-size: 18px !important;
+    color: rgb(255, 117, 117) !important;
+}
+.skillsPage{
+    color:#fff;
+}
+.skillsText{
+    font-size: 14px;
+}
+/* ----- NAVBAR ----- */
+.navbar{
+    width:100%;
+    position:fixed;
+    z-index: 10;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: bold;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: rgb(189, 189, 189) !important;
+}
+.logo{
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+.logo:hover{
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+.port{
+    color: rgb(99, 206, 0);
+}
+/* ----- MAIN PAGE TEXT ----- */
+.text1{
+    font-size: 34px;
+}
+.text2{
+    font-weight: bold;
+    font-size: 62px;
+    text-shadow: -1px -1px 0 rgb(53, 110, 0), 1px -1px 0 rgb(53, 110, 0), -1px 1px 0 rgb(53, 110, 0), 1px 1px 0 rgb(53, 110, 0);
+}
+.text3{
+    font-size: 34px;
+}
+
+#aboutHeading, #skillsHeading{
+    font-size: 42px;
+    font-weight: bold;
+}
+.aboutMeText{
+    font-size: 20px;
+}
+.contactText{
+    font-size: 20px;
+}
+.skillsPage{
+    background-color: #31363a;
+}
+
+.chartText{
+    font-size: 18px;
+    font-weight: bold;
+}
+.chartLine{
+    background: rgb(226, 226, 226);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+}
+.chartFill{
+    background: #2ec700;
+    content: "";
+    position: relative;
+    width: 50%; /* unique for each skill */
+    height: 10px;
+}
+/* SKILLS DATA */
+#skillHTML{
+    width: 80%;
+}
+#skillCSS{
+    width: 65%;
+}
+#skillJavascript{
+    width: 60%;
+}
+#skillPHP{
+    width: 55%;
+}
+#skillC{
+    width: 90%;
+}
+#skillCPP{
+    width: 50%;
+}
+#skillJava{
+    width: 35%;
+}
+#skillPython{
+    width: 50%;
+}
+#skillShell{
+    width: 40%;
+}
+/* ----- CONTACT ----- */
+
+/* ----- FOOTER ----- */
+.contactContent{
+    height: 93%;
+}
+.contactIcon{
+    color: rgb(180, 0, 0);
+}
+.github{
+    color: rgb(0, 0, 0)
+}
+.github:hover{
+    color: rgb(59, 59, 59)
+}
+.linkedin{
+    color: rgb(40,103,178);
+}
+.linkedin:hover{
+    color: rgb(52, 132, 231);
+}
+.footer{
+    background-color: rgb(31, 31, 31);
+    height: 7%;
+    color: rgb(180, 180, 180);
+}
+.footerAuthor{
+    color: rgb(248, 0, 0);
+}
+.contactInfo{
+    font-size: 18px;
+}

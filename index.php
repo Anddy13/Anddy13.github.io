@@ -1,0 +1,331 @@
+<?php ini_set("default_charset", "utf-8"); ?>
+<!doctype html>
+
+<html lang="en">
+<head>
+    
+    <?php
+        include 'includes/head.php'; // includes the head
+    ?>
+    <meta name="author" content="Andrej Ryška">
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+    <script src="scripts/index.js"></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+
+<!-- HOME -->
+<section class="homePage" id="home">
+
+    <!-- NAVBAR -->
+    <nav class="py-1 navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid w-75">
+            <a class="mx-2 logo" href="#">
+                My<span class="port">Port</span>folio
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="mx-2 nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="mx-2 nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TEXT -->
+    <div class="container-fluid w-75 h-100 d-flex align-items-center">
+        <div class="row w-100 pl-3">
+    
+            <div class="col-lg my-auto">
+                <div class="text1">
+                    Hello, my name is
+                </div>
+                <div class="text2">
+                    Andrej Ryška
+                </div>
+                <div class="text3">
+                    and I am a software developer
+                </div>
+                <!-- BUTTON -->
+                <div class="my-5">
+                    <a class="mx-2 btn btn-lg btn-success" href="#about">Get to know me</a>
+                    <a class="mx-2 btn btn-lg btn-warning" href="#contact">Contact me</a>
+                </div>
+            </div>
+            <div class="col-lg my-auto mx-auto">
+                <blockquote class="blockquote text-center pt-5 pl-5 mt-5 ml-5">
+                    <p class="mb-0">
+                        I never lose.</p>
+                    <p>Either i win or i learn.</p>
+                    <footer class="blockquote-footer"> 
+                        <cite>Nelson Mandela</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="aboutPage" id="about">
+    <div class="py-5 container-fluid w-75 h-100">
+
+        <!-- HEADING -->
+        <div class="row py-5" id="aboutHeading">
+            <div class="mx-auto aboutText">
+                About me
+                <div class="underline" id="underlineAbout"></div>
+            </div>
+        </div>
+
+        <div class="row h-75">
+
+            <!-- PICTURE -->
+            <div class="col-lg my-auto aboutMePic">
+                
+            </div>
+            
+            <!-- TEXT -->
+            <div class="col-lg my-auto aboutMeText">
+                <p>
+                I am a junior developer and a student of computer 
+                science at Faculty of 
+                Information Technology
+                Brno University of Technology.
+                </p>
+                <p> 
+                I'm in the third year of bachelor's program and will
+                graduate with the bachelor's degree next year. 
+                After that I'm going to pursue masters degree in computer science.
+                The exact specialization is still to be decided. 
+                </p>
+                <p>
+                Although I come from Slovakia, right now 
+                I'm situated in Brno, Czech Republic.
+                </p>
+                <p>
+                I love traveling, learning and getting to know new 
+                technologies, people and foreign places.
+                Dynamic lifestyle suits me the best.
+                I crave new challenges that keep me busy and push me forward.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skillsPage" id="skills">
+    <div class="py-5 container-fluid w-75 h-100">
+
+        <!-- HEADING -->
+        <div class="row py-5" id="skillsHeading">
+            <div class="mx-auto">
+                Skills
+                <div class="underline" id="underlineSkills"></div>
+            </div>
+        </div>
+
+        <div class="row h-75">
+
+            <!-- TEXT -->
+            <div class="col-lg my-auto mr-5 skillsText">
+                <p>
+                My university put a lot of focus on teaching us
+                low end programming languages and more importantly,
+                understanding core concepts of programming and
+                computer science. 
+                </p>
+                The go to language was C, hence from all the languages, this is
+                the one that I'm the closest to mastering.
+                </p>
+                <p>
+                Recently, I've been interested in higher level
+                languages including Java, C++ and Python. 
+                </p>
+                <p>
+                It's not too long ago that I discovered my new hobby
+                 - Web development - due to some of the school
+                projects that were Web-focused. 
+                I've learnt a lot about HTML, CSS and Javascript, 
+                to the point of creating my own websites. 
+                Furthermore, I dug deeper and studied backend and 
+                database technologies, specifically
+                PHP and MySQL. I created my own Information system
+                combining frontend, backend and database
+                skills.
+                </p>
+                <p>
+                Right now I keep expanding my knowledge about web technologies.
+                I've learnt CSS framwework Bootstrap, Javascript's Jquery
+                and I'm about to explore CSS preprocessors SASS or LESS.
+                </p>
+                To top it all off, I'm experienced with version control services
+                GitHub and GitLab. Terms like merge and pull requests aren't
+                unfamiliar to me. In fact, I use them on daily basis.
+            </div>
+            
+            <!-- SKILL CHART -->
+            <div class="col-lg chartText my-auto">
+                <div class="py-1">
+                    <span>HTML<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillHTML"></div>
+                </div>
+                <div class="py-1">
+                    <span>CSS<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillCSS"></div>
+                </div>
+                <div class="py-1">
+                    <span>Javascript<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillJavascript"></div>
+                </div>
+                <div class="py-1">
+                    <span>PHP<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillPHP"></div>
+                </div>
+                <div class="py-1">
+                    <span>C<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillC"></div>
+                </div>
+                <div class="py-1">
+                    <span>C++<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillCPP"></div>
+                </div>
+                <div class="py-1">
+                    <span>Java<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillJava"></div>
+                </div>
+                <div class="py-1">
+                    <span>Python<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillPython"></div>
+                </div>
+                <div class="py-1">
+                    <span>Shell<span>
+                    <div class="chartLine"></div>
+                    <div class="chartFill" id="skillShell"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contactPage" id="contact">
+    <div class="contactContent py-5 container">
+
+        <!-- HEADING -->
+        <div class="row py-5" id="skillsHeading">
+            <div class="mx-auto">
+                Contact me
+                <div class="underline" id="underlineContact"></div>
+            </div>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="row h-50">
+            <!-- CONTACT INFO -->
+            <div class="col-lg my-auto">
+                <!-- NAME -->
+                <div class="row my-3">
+                    <div class="col-2 my-auto">
+                        <i class="contactIcon my-2 pr-3 far fa-user fa-3x"></i>
+                    </div>
+                    <div class="col-10 my-auto">
+                        <span class="contactInfo"> Andrej Ryška </span>
+                    </div>
+                </div>
+                <!-- LOCATION -->
+                <div class="row my-3">
+                    <div class="col-2 my-auto">
+                        <i class="contactIcon fas fa-map-marker-alt fa-3x"></i>
+                    </div>
+                    <div class="col-10 my-auto">
+                        <span class="contactInfo"> Brno, Czech Republic </span>
+                    </div>
+                </div>
+                <!-- EMAIL -->
+                <div class="row my-3">
+                    <div class="col-2 my-auto">
+                        <i class="contactIcon my-2 far fa-envelope fa-3x"></i>
+                    </div>
+                    <div class="col-10 my-auto">
+                        <span class="contactInfo"> rysandy10@gmail.com </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEXT -->
+            <div class="col-lg my-auto contactText">
+                Feel free to contact me on any given platform. I'll get to Your
+                message as soon as possible!
+            </div>
+        </div>
+
+        <div class="row h-25 mt-3">
+            <div class="mx-auto my-auto ">
+                <a class="github" href="https://github.com/Anddy13">
+                    <i class="mx-3 fab fa-github fa-4x"></i>
+                </a>
+                <a class="linkedin" href="https://www.linkedin.com/in/andrej-ry%C5%A1ka-5855501b7/">
+                    <i class="fab fa-linkedin fa-4x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container-fluid w-75 h-100">
+            <div class="row h-100">
+                <div class="mx-auto my-auto">
+                    Created by 
+                    <span class="footerAuthor">Andrej Ryška</span>
+                    | &copy; 2020 All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+</body>
+</html>
