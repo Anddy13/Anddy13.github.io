@@ -23,7 +23,6 @@
 }
 .scrolled{
     background-color: rgb(172, 0, 0) !important;
-    transition: background-color 400ms linear;
 }
 .navbar-toggler{
     background-color: rgb(175, 175, 175);
