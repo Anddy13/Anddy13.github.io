@@ -34,17 +34,26 @@
     font-family: 'Ubuntu', 'sans-serif', 'Helvetica', 'sans-serif';
 }
 @media only screen and (max-width: 992px) {
+    #navbar{
+        background-color: rgb(172, 0, 0) !important;
+    }
     .homePage {
-        height: 1080px !important;
+        height: auto !important;
+    }
+    .homeText{
+        padding-top: 100px;
     }
     .aboutPage{
-        height: 1800px !important;
+        height: auto !important;
+    }
+    .aboutMePic{
+        height: 600px !important;
     }
     .skillsPage{
-        height: 1500px !important;
+        height: auto !important;
     }
     .contactPage{
-        height: 1200px !important;
+        height: auto !important;
     }
   }
 .homePage{
