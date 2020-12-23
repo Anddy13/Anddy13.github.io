@@ -55,7 +55,27 @@
     .contactPage{
         height: auto !important;
     }
-  }
+}
+@media only screen and (max-height: 720px){
+    .homePage {
+        height: auto !important;
+    }
+    .homeText{
+        padding-top: 100px;
+    }
+    .aboutPage{
+        height: auto !important;
+    }
+    .aboutMePic{
+        height: 600px !important;
+    }
+    .skillsPage{
+        height: auto !important;
+    }
+    .contactPage{
+        height: auto !important;
+    }
+}
 .homePage{
     background: url("../img/bg.jpg") no-repeat center;
     background-color: #222629;
