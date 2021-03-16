@@ -1,5 +1,4 @@
 
-
 .underline{
     background: #fff;
     content: "";
@@ -46,9 +45,6 @@
     .aboutPage{
         height: auto !important;
     }
-    .aboutMePic{
-        height: 600px !important;
-    }
     .skillsPage{
         height: auto !important;
     }
@@ -56,6 +52,7 @@
         height: auto !important;
     }
 }
+
 @media only screen and (max-height: 720px){
     .homePage {
         height: auto !important;
@@ -143,7 +140,6 @@ blockquote{
 .text3{
     font-size: 34px;
 }
-
 #aboutHeading, #skillsHeading{
     font-size: 42px;
     font-weight: bold;
@@ -157,7 +153,6 @@ blockquote{
 .skillsPage{
     background-color: #31363a;
 }
-
 .chartText{
     font-size: 18px;
     font-weight: bold;
@@ -206,13 +201,16 @@ blockquote{
 }
 /* ----- CONTACT ----- */
 
-/* ----- FOOTER ----- */
 .contactContent{
     height: 93%;
 }
 .contactIcon{
     color: rgb(180, 0, 0);
 }
+.contactInfo{
+    font-size: 18px;
+}
+/* ----- ICONS ----- */
 .github{
     color: rgb(0, 0, 0)
 }
@@ -225,6 +223,7 @@ blockquote{
 .linkedin:hover{
     color: rgb(52, 132, 231);
 }
+/* ----- FOOTER ----- */
 .footer{
     background-color: rgb(31, 31, 31);
     height: 7%;
@@ -233,6 +232,4 @@ blockquote{
 .footerAuthor{
     color: rgb(248, 0, 0);
 }
-.contactInfo{
-    font-size: 18px;
-}
+
