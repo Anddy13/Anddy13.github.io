@@ -27,20 +27,50 @@
 .navbar-toggler{
     background-color: rgb(175, 175, 175);
 }
+.homePage{
+    height: 100vh;
+}
+.aboutPage{
+    height: auto !important;
+    min-height: 100vh;
+}
+.aboutMePic{
+    height: 400px !important;
+}
+.skillsPage{
+    height: auto;
+    min-height: 100vh;
+}
+.contactPage{
+    height: auto;
+}
 .homePage, .aboutPage, .skillsPage, .contactPage{
-    height: 100vh !important;
-    background-size: cover;
     font-family: 'Ubuntu', 'sans-serif', 'Helvetica', 'sans-serif';
 }
 @media only screen and (max-width: 992px) {
     #navbar{
         background-color: rgb(172, 0, 0) !important;
     }
+
     .homePage {
         height: auto !important;
     }
     .homeText{
         padding-top: 100px;
+    }
+    .homeText{
+        padding-bottom: 100px !important;
+        width: 90% !important;
+    }
+    .aboutPage > div:first-child{
+        width: 90% !important;
+    }
+    .skillsPage > div:first-child{
+        width: 90% !important;
+    }
+    .skillsPage .chartText{
+        padding-top: 20px;
+        width: 90% !important;
     }
     .aboutPage{
         height: auto !important;
@@ -55,24 +85,14 @@
 
 @media only screen and (max-height: 720px){
     .homePage {
+        min-height: 100vh !important;
         height: auto !important;
     }
     .homeText{
         padding-top: 100px;
     }
-    .aboutPage{
-        height: auto !important;
-    }
-    .aboutMePic{
-        height: 600px !important;
-    }
-    .skillsPage{
-        height: auto !important;
-    }
-    .contactPage{
-        height: auto !important;
-    }
 }
+
 .homePage{
     background: url("../img/bg.jpg") no-repeat center;
     background-color: #222629;
@@ -96,7 +116,8 @@ blockquote{
     color:#fff;
 }
 .skillsText{
-    font-size: 14px;
+    font-size: 16px;
+    text-align: justify;
 }
 /* ----- NAVBAR ----- */
 .navbar{
@@ -146,9 +167,11 @@ blockquote{
 }
 .aboutMeText{
     font-size: 20px;
+    text-align: justify;
 }
 .contactText{
     font-size: 20px;
+    text-align: justify;
 }
 .skillsPage{
     background-color: #31363a;
